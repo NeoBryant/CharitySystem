@@ -1,0 +1,1 @@
+geth --datadir data --networkid 20 --rpc --rpcaddr 0.0.0.0 --rpccorsdomain "*" --rpcapi db,net,web3,admin,debug,miner,eth,personal console 2>>geth.log
