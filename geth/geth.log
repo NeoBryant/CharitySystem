@@ -4881,3 +4881,41 @@ INFO [12-31|22:55:21] Successfully sealed new block            number=1111 hash=
 INFO [12-31|22:55:21] 🔗 block reached canonical chain          number=1106 hash=ea3ae6…2a614e
 INFO [12-31|22:55:21] 🔨 mined potential block                  number=1111 hash=7dc444…4ecab3
 INFO [12-31|22:55:21] Commit new mining work                   number=1112 txs=0 uncles=0 elapsed=0s
+INFO [01-01|20:19:03] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [01-01|20:19:04] Starting peer-to-peer node               instance=Geth/v1.8.3-stable-329ac18e/windows-amd64/go1.10
+INFO [01-01|20:19:04] Allocated cache and file handles         database=C:\\Users\\Bryant\\Desktop\\final\\geth\\data\\geth\\chaindata cache=768 handles=1024
+INFO [01-01|20:19:04] Initialised chain configuration          config="{ChainID: 10 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: 0 EIP158: 0 Byzantium: <nil> Constantinople: <nil> Engine: unknown}"
+INFO [01-01|20:19:04] Disk storage enabled for ethash caches   dir=C:\\Users\\Bryant\\Desktop\\final\\geth\\data\\geth\\ethash count=3
+INFO [01-01|20:19:04] Disk storage enabled for ethash DAGs     dir=C:\\Users\\Bryant\\AppData\\Ethash                          count=2
+INFO [01-01|20:19:04] Initialising Ethereum protocol           versions="[63 62]" network=20
+WARN [01-01|20:19:04] Head state missing, repairing chain      number=1111 hash=7dc444…4ecab3
+INFO [01-01|20:19:04] Rewound blockchain to past state         number=669  hash=484cab…ca21e4
+INFO [01-01|20:19:04] Loaded most recent local header          number=1111 hash=7dc444…4ecab3 td=182057014
+INFO [01-01|20:19:04] Loaded most recent local full block      number=669  hash=484cab…ca21e4 td=101191095
+INFO [01-01|20:19:04] Loaded most recent local fast block      number=1111 hash=7dc444…4ecab3 td=182057014
+INFO [01-01|20:19:04] Loaded local transaction journal         transactions=10 dropped=0
+INFO [01-01|20:19:04] Regenerated local transaction journal    transactions=10 accounts=1
+WARN [01-01|20:19:04] Blockchain not empty, fast sync disabled 
+INFO [01-01|20:19:04] Starting P2P networking 
+INFO [01-01|20:19:07] UDP listener up                          self=enode://4df0152959c034e1a3bd7fd20db05431ae4533fe559d7e10f4ca8dc4d00f2f1e5e6a9bd7f6711ddf06772ed008565f746d9dcac1f184ed9de12f2326696852ba@[::]:30303
+INFO [01-01|20:19:07] RLPx listener up                         self=enode://4df0152959c034e1a3bd7fd20db05431ae4533fe559d7e10f4ca8dc4d00f2f1e5e6a9bd7f6711ddf06772ed008565f746d9dcac1f184ed9de12f2326696852ba@[::]:30303
+INFO [01-01|20:19:07] HTTP endpoint opened                     url=http://0.0.0.0:8545 cors=* vhosts=localhost
+INFO [01-01|20:19:07] IPC endpoint opened                      url=\\\\.\\pipe\\geth.ipc
+INFO [01-01|20:19:07] Etherbase automatically configured       address=0xb214cDdbb8389b927517E053B4aAd13f64d5E27b
+INFO [01-01|21:12:16] Updated mining threads                   threads=1
+INFO [01-01|21:12:16] Transaction pool price threshold updated price=18000000000
+INFO [01-01|21:12:16] Starting mining operation 
+INFO [01-01|21:12:16] Commit new mining work                   number=670  txs=10 uncles=0 elapsed=2.998ms
+INFO [01-01|21:12:39] HTTP endpoint closed                     url=http://0.0.0.0:8545
+INFO [01-01|21:12:39] IPC endpoint closed                      endpoint=\\\\.\\pipe\\geth.ipc
+INFO [01-01|21:12:39] Writing cached state to disk             block=669 hash=484cab…ca21e4 root=db8630…7484a0
+INFO [01-01|21:12:39] Persisted trie from memory database      nodes=0 size=0.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [01-01|21:12:39] Writing cached state to disk             block=668 hash=9ba65f…afb748 root=1652cb…671d63
+INFO [01-01|21:12:39] Persisted trie from memory database      nodes=0 size=0.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [01-01|21:12:39] Writing cached state to disk             block=542 hash=0ae399…d4463a root=9ba9fa…2bb76d
+INFO [01-01|21:12:39] Persisted trie from memory database      nodes=0 size=0.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [01-01|21:12:39] Blockchain manager stopped 
+INFO [01-01|21:12:39] Stopping Ethereum protocol 
+INFO [01-01|21:12:39] Ethereum protocol stopped 
+INFO [01-01|21:12:39] Transaction pool stopped 
+INFO [01-01|21:12:39] Database closed                          database=C:\\Users\\Bryant\\Desktop\\final\\geth\\data\\geth\\chaindata

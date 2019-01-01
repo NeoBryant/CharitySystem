@@ -106,3 +106,35 @@
 22:14:21.297855 table@compaction committed F-1 S-193KiB Ke·0 D·9307 T·235.8548ms
 22:14:21.298854 table@remove removed @21
 22:14:21.300853 table@remove removed @20
+=============== Jan 1, 2019 (CST) ===============
+20:19:06.819588 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:19:06.840694 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.02]
+20:19:06.840694 db@open opening
+20:19:06.840694 journal@recovery F·1
+20:19:06.845690 journal@recovery recovering @22
+20:19:07.136516 memdb@flush created L0@25 N·38303 S·1MiB "n:\x00..ail,v112940":"n:\xff..ing,v109940"
+20:19:07.143507 version@stat F·[1 1] S·2MiB[1MiB 1MiB] Sc·[0.25 0.02]
+20:19:07.190595 db@janitor F·4 G·0
+20:19:07.190595 db@open done T·349.9006ms
+20:19:08.822255 table@compaction L0·1 -> L1·1 S·2MiB Q·127447
+20:19:09.100083 table@build created L1@28 N·40117 S·2MiB "n:\x00..ing,v23885":"n:\xe2..ail,v9225"
+20:19:09.180033 table@build created L1@29 N·5231 S·274KiB "n:\xe2..ing,v9206":"version,v1"
+20:19:09.180033 version@stat F·[0 2] S·2MiB[0B 2MiB] Sc·[0.00 0.02]
+20:19:09.219010 table@compaction committed F~ S-510KiB Ke·0 D·28741 T·396.7549ms
+20:19:09.229003 table@remove removed @25
+20:19:09.247991 table@remove removed @24
+20:59:41.773700 memdb@flush N·37988 S·3MiB
+20:59:41.911650 memdb@flush created L0@31 N·37988 S·875KiB "n:\x00..ing,v153131":"n:\xff..ing,v134350"
+20:59:41.911650 version@stat F·[1 2] S·3MiB[875KiB 2MiB] Sc·[0.25 0.02]
+20:59:41.933651 memdb@flush committed F·1 T·159.9512ms
+20:59:41.937649 journal@remove removed @26
+20:59:43.288269 table@compaction L0·1 -> L1·2 S·3MiB Q·165399
+20:59:43.441434 table@build created L1@32 N·39520 S·2MiB "n:\x00..ing,v23885":"n:\xc5..ong,v69322"
+20:59:43.574422 table@build created L1@33 N·11263 S·599KiB "n:\xc5..ing,v122456":"version,v1"
+20:59:43.574422 version@stat F·[0 2] S·2MiB[0B 2MiB] Sc·[0.00 0.03]
+20:59:43.599283 table@compaction committed F-1 S-554KiB Ke·0 D·32553 T·311.0135ms
+20:59:43.602277 table@remove removed @31
+20:59:43.604275 table@remove removed @28
+20:59:43.608273 table@remove removed @29
+21:12:39.748270 db@close closing
+21:12:39.749269 db@close done T·999.2µs
