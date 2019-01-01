@@ -100,50 +100,62 @@
 
 ## 测试
 - 进入geth命令控制窗口：
-![0.png](assets/0.png)
+
+  ![0.png](assets/0.png)
 
 <br>
 
 - 开始挖矿:
-![3.png](assets/3.png)
+
+  ![3.png](assets/3.png)
 
 <br>
 
 - 创建智能合约：
-![1.png](assets/1.png)
-![2.png](assets/2.png)
+
+  ![1.png](assets/1.png)
+  
+  ![2.png](assets/2.png)
 
 <br>
 
 - 创建账户：
-![4.png](assets/4.png)
+  
+  ![4.png](assets/4.png)
 
 <br>
 
 - 查看慈善机构账户信息：
-![5.png](assets/5.png)
+  
+  ![5.png](assets/5.png)
+
 打印信息分别为账户身份、慈善机构账户总余额、慈善机构总捐款金额、慈善机构总受捐金额、慈善机构账户地址；
 
 <br>
 
 - 查看账户身份：
-![7.png](assets/7.png)
+
+  ![7.png](assets/7.png)
 
 <br>
 
 - 查看账户的账户信息：
-![6.png](assets/6.png)
+  
+  ![6.png](assets/6.png)
+
 打印信息分别为账户身份信息，受捐金额，捐款金额，总余额；
 
 <br>
 
 - 设置账户身份，设置账户acc1为受助者：
-![8.png](assets/8.png)
+
+  ![8.png](assets/8.png)
 
 <br>
 
 - 慈善机构捐款给受助者：
-![9.png](assets/9.png)
+
+  ![9.png](assets/9.png)
 
 <br>
 
