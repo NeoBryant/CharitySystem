@@ -9,14 +9,14 @@
 ```
 ├─assets               //报告插图
 ├─contract            
-|  └─CharitySystem.sol //智能合约代码
+|  └─CharitySystem.sol   //智能合约代码
 └─geth                 //项目
-    ├─abi.json         //智能合约abi
-    ├─genesis.json     //geth初始化文档
-    ├─geth.exe         //geth执行文件
-    ├─geth.log         //geth日志
-    ├─InitGeth.bat     //私有链初始化执行脚本
-    ├─StartGeth.bat    //私有链启动执行脚本
+    ├─abi.json           //智能合约abi
+    ├─genesis.json       //geth初始化文档
+    ├─geth.exe           //geth执行文件
+    ├─geth.log           //geth日志
+    ├─InitGeth.bat       //私有链初始化执行脚本
+    ├─StartGeth.bat      //私有链启动执行脚本
     ├─WEB3DEPLOY.js
     └─data
         ├─geth
